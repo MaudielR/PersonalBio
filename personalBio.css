@@ -1,0 +1,33 @@
+/*Navigation bar properties*/
+main {
+  width: 100%;
+  height: 70px;
+  background-color: blue;
+}
+/*design for the page links HOME, GALLERY, WORKPAGE*/
+#navBarButton {
+  background-color: green;
+}
+/**/
+#navBarLink {
+  background-color: red;
+}
+/**/
+#portfolioName {
+  text-align: center;
+}
+#portfolioBody {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-color: bisque;
+  overflow: hidden;
+}
+#portfolioEmail {
+  float: right;
+}
+
+/**/
+#footerLink {
+  background-color: yellow;
+}
