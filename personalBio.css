@@ -2,6 +2,9 @@ body {
   height: 100%;
   position: relative;
 }
+p {
+  font-family: Times;
+}
 
 /*Main containere*/
 #mainContainer {
@@ -89,12 +92,13 @@ li a:hover {
 #portfolioName {
   font-family: Times;
   text-align: center;
+  font-size: 26px;
 }
 
 /*This is the style the profile picture and its container */
 #portfolioBody {
   margin: auto;
-  width: 50%;
+  width: 600px;
   padding: 10px;
   background-color: bisque;
   overflow: hidden;
@@ -105,13 +109,22 @@ img {
 }
 #portfolioEmail {
   margin-left: 50%;
+  font-size: 25px;
 }
 /*This is the style for the bio and gallery/work tables  */
+h3 {
+  font-style: oblique;
+  font-size: 25px;
+}
+
 #mainBio {
   margin: auto;
   border-style: dotted;
   width: 70%;
   padding: 10px;
+}
+#mainBio p {
+  font-size: 18px;
 }
 #photoBio {
   margin: auto;
@@ -119,14 +132,21 @@ img {
   width: 70%;
   padding: 10px;
 }
+#photoBio p {
+  font-size: 18px;
+}
 #photoBioLink {
   width: 100%;
 }
+
 #workBio {
   margin: auto;
   border-style: dotted;
   width: 70%;
   padding: 10px;
+}
+#workBio p {
+  font-size: 18px;
 }
 #workBioLink {
   width: 100%;
