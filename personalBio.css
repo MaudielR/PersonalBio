@@ -1,6 +1,7 @@
 body {
   height: 100%;
   position: relative;
+  background-color: rgb(146, 154, 171);
 }
 p {
   font-family: Times;
@@ -15,7 +16,7 @@ p {
 main {
   width: 100%;
   height: 80px;
-  background-color: blue;
+  background-color: rgb(211, 213, 253);
   overflow: hidden;
   /*display: auto;*/
   /*overflow: hidden;*/
@@ -46,7 +47,8 @@ ul li a {
 }
 
 li a:hover {
-  background-color: orange;
+  background-color: rgb(71, 74, 86);
+  color: white;
 }
 /*design for The social Media links*/
 
@@ -91,16 +93,18 @@ li a:hover {
 /*This is the style for the name */
 #portfolioName {
   font-family: Times;
-  text-align: center;
+  margin-left: 15%;
   font-size: 26px;
+  color: rgb(51, 51, 32);
 }
 
 /*This is the style the profile picture and its container */
 #portfolioBody {
   margin: auto;
+  margin-left: 15%;
   width: 600px;
   padding: 10px;
-  background-color: bisque;
+  background-color: rgb(211, 213, 253);
   overflow: hidden;
 }
 img {
@@ -119,7 +123,6 @@ h3 {
 
 #mainBio {
   margin: auto;
-  border-style: dotted;
   width: 70%;
   padding: 10px;
 }
@@ -128,35 +131,28 @@ h3 {
 }
 #photoBio {
   margin: auto;
-  border-style: dotted;
   width: 70%;
   padding: 10px;
 }
 #photoBio p {
   font-size: 18px;
 }
-#photoBioLink {
-  width: 100%;
-}
-
 #workBio {
   margin: auto;
-  border-style: dotted;
+
   width: 70%;
   padding: 10px;
 }
 #workBio p {
   font-size: 18px;
 }
-#workBioLink {
-  width: 100%;
-}
+
 /**/
 footer {
   width: 100%;
   bottom: 0;
   height: 100px;
-  background-color: rgb(41, 40, 38);
+  background-color: rgb(71, 74, 86);
   position: absolute;
   bottom: 0;
   display: flex;
@@ -170,6 +166,8 @@ footer {
   justify-content: center;
 }
 #footerLink button {
+  background: rgb(211, 213, 253);
+
   cursor: pointer;
   margin-right: 10px;
 }
