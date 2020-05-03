@@ -3,21 +3,19 @@ body {
   position: relative;
   background-color: rgb(146, 154, 171);
 }
-p {
-  font-family: Times;
-}
 
 /*Main containere*/
 #mainContainer {
   padding-bottom: 100px;
 }
 
-/*Navigation bar properties*/
 main {
   width: 100%;
   height: 80px;
   background-color: rgb(211, 213, 253);
   overflow: hidden;
+  /*display: auto;*/
+  /*overflow: hidden;*/
 }
 
 /*design for the page links HOME, GALLERY, WORKPAGE*/
@@ -88,64 +86,62 @@ li a:hover {
   background: gray;
   cursor: pointer;
 }
-/*This is the style for the name */
-#portfolioName {
-  font-family: Times;
-  margin-left: 15%;
-  font-size: 26px;
-  color: rgb(51, 51, 32);
+/*---------------------------------------------------------*/
+#boxPic {
+  width: 100%;
 }
-
-/*This is the style the profile picture and its container */
-#portfolioBody {
-  margin: auto;
-  margin-left: 15%;
-  width: 600px;
-  padding: 10px;
-  background-color: rgb(211, 213, 253);
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto;
+  background-color: rgb(146, 154, 171);
   overflow: hidden;
 }
-img {
+
+.grid-container > div {
+  background-color: rgb(146, 154, 171);
+  text-align: center;
+  font-size: 30px;
+}
+/*---------------------------------------------------------*/
+
+.galleryContainer1 {
+  margin: auto;
+  width: 70%;
+  border: 2px solid white;
+  overflow: auto;
+}
+.galleryContainer2 {
+  margin: auto;
+  width: 70%;
+  border: 2px solid white;
+  overflow: auto;
+}
+.galleryContainer1 p {
+  font-family: sans-serif;
+  margin-left: 30px;
+}
+.galleryContainer2 p {
+  font-family: sans-serif;
+  margin-right: 30px;
+}
+.photoParagraph2 {
+  margin-left: 55%;
+}
+.rightPhoto {
+  float: right;
+  width: 50%;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+.leftPhoto {
   float: left;
-  width: 40%;
-}
-#portfolioEmail {
-  margin-left: 50%;
-  font-size: 25px;
-}
-/*This is the style for the bio and gallery/work tables  */
-h3 {
-  font-style: oblique;
-  font-size: 25px;
+  width: 50%;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 0px;
 }
 
-#mainBio {
-  margin: auto;
-  width: 70%;
-  padding: 10px;
-}
-#mainBio p {
-  font-size: 18px;
-}
-#photoBio {
-  margin: auto;
-  width: 70%;
-  padding: 10px;
-}
-#photoBio p {
-  font-size: 18px;
-}
-#workBio {
-  margin: auto;
-
-  width: 70%;
-  padding: 10px;
-}
-#workBio p {
-  font-size: 18px;
-}
-
-/**/
+/*sytle for my footer*/
 footer {
   width: 100%;
   bottom: 0;

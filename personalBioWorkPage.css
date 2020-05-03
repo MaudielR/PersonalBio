@@ -3,16 +3,11 @@ body {
   position: relative;
   background-color: rgb(146, 154, 171);
 }
-p {
-  font-family: Times;
-}
 
 /*Main containere*/
 #mainContainer {
   padding-bottom: 100px;
 }
-
-/*Navigation bar properties*/
 main {
   width: 100%;
   height: 80px;
@@ -88,64 +83,24 @@ li a:hover {
   background: gray;
   cursor: pointer;
 }
-/*This is the style for the name */
-#portfolioName {
-  font-family: Times;
-  margin-left: 15%;
-  font-size: 26px;
-  color: rgb(51, 51, 32);
-}
-
-/*This is the style the profile picture and its container */
-#portfolioBody {
-  margin: auto;
-  margin-left: 15%;
-  width: 600px;
-  padding: 10px;
-  background-color: rgb(211, 213, 253);
-  overflow: hidden;
-}
-img {
-  float: left;
-  width: 40%;
-}
-#portfolioEmail {
-  margin-left: 50%;
-  font-size: 25px;
-}
-/*This is the style for the bio and gallery/work tables  */
-h3 {
-  font-style: oblique;
-  font-size: 25px;
-}
-
-#mainBio {
+.codeContainer {
   margin: auto;
   width: 70%;
-  padding: 10px;
-}
-#mainBio p {
-  font-size: 18px;
-}
-#photoBio {
-  margin: auto;
-  width: 70%;
-  padding: 10px;
-}
-#photoBio p {
-  font-size: 18px;
-}
-#workBio {
-  margin: auto;
-
-  width: 70%;
-  padding: 10px;
-}
-#workBio p {
-  font-size: 18px;
+  height: 900px;
+  border: 2px solid gray;
+  overflow: scroll;
 }
 
-/**/
+#codeEditor {
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  background: gray;
+}
+#code {
+  width: 100%;
+  height: 100%;
+}
 footer {
   width: 100%;
   bottom: 0;
