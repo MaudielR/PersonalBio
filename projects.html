@@ -18,43 +18,50 @@
                   <ul>
                       <li><a href="index.html">Home</a></li>
                       <li><a href="gallery.html">Gallery</a></li>
-                      <li><a href="projects.html">Work</a></li>    
+                      <li><a href="projects.html">Projects</a></li>    
                   </ul>
-                  <button id="navBarLink" href="#" class="fa fa-facebook"></button>
+                  
            <button id="navBarLink" hreff="sdff" class ="fa fa-github" style="font-size:24px" ></i></button>
            <button id="navBarLink" href="#" class="fa fa-linkedin"></button>
            <button id="navBarLink" href="#" class="fa fa-instagram"></button>
            <button id="navBarLink" hreff="sdff" class="fa fa-envelope" style="font-size:24px"></button>
-              </div>
+        </div>
       </main>
       <div class="codeContainer">
-        <p><button id="navBarLink" hreff="sdff" class ="fa fa-github" style="font-size:24px" ></i></button>
-          
-          This is a small description on the code below. Here I will talk about
-          what part this piece of code plays and why I deam it important for my
-          overall growth as a coder.
-        </p></br>
+        <p>
+        Using HTML, JSP, MySQL I implimented a method to allow a customer to input and update information such 
+        as Names, Adress, and Phone Number. I started by setting up the general connections to MySQLworkbench and 
+        the HTML page. Then I used a cookie to store the users' account number. Using that Cookie I was albe to set
+        it as a condition for my SQL code gathering and changing the current useres informaition.Finally I set 
+        up checkpoints assuring that the general format of information stayed consistent in my DataBase.
+        To see more on this page or the full project you can click the Github icon.
+        <button id="navBarLink" hreff="sdff" class ="fa fa-github" style="font-size:24px" ></i></button> 
+        </p>
+        </br>
     
         <div id="codeEditor">
           
-            <object  id ="code" data="infoChange.txt"  ></object>
-           
-            
+            <object  id ="code" data="codeFiles/infoChange.txt"  ></object>
         </div>
-        <p><button id="navBarLink" hreff="sdff" class ="fa fa-github" style="font-size:24px" ></i></button>
-          
-            This is a small description on the code below. Here I will talk about
-            what part this piece of code plays and why I deam it important for my
-            overall growth as a coder.
-          </p></br>
+      </div>
+      <div class="codeContainer">
+        <p>
+        Again using HTML, JSP,and MySQL, I implimented a method to allow the user to get his travel itinerary 
+        for their selected reservation.I started by setting up the general connections to MySQLworkbench and 
+        the HTML page where I would return the table. I requested a parameter "resCode" from the user. This
+        parameter was used to implement in my SQL code. Then I created a skeleton table that will hold all the 
+        information in table form. Finally I created a while loop to return all corolated travel information of
+        the specific user. To see more on this page or the full project you can click the Github icon. 
+        <button id="navBarLink" hreff="sdff" class ="fa fa-github" style="font-size:24px" ></i></button>
+        </p>
+        </br>
       
           <div id="codeEditor">
-            
-              
-              <object  id ="code" data="travel.txt"  ></object>
-              
+              <object  id ="code" data="codeFiles/travel.txt"  ></object> 
           </div>
       </div>
+    </div>
+  </div> 
       <footer>
         <!-- first rown contains links to home, gallery and workpage-->
         <div>
@@ -67,6 +74,6 @@
           <p id="contactInfo">Contacts: <a href="emaillink"> email </a></p>
         </div>
       </footer>
-    </div>
+   
   </body>
 </html>
